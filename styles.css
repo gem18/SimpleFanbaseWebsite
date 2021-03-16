@@ -1,0 +1,74 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav_bar {
+    background-color: #ffec68;
+    box-shadow: 1px 2px 5px grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#intro {
+    background-color: #bbbbbb;
+    box-shadow: 1px 2px 5px grey;
+}
+
+.navbar-brand {
+    color: black;
+    text-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.navbar navbar-expand-lg .collapse navbar-collapse {
+    color: black;
+    text-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.col-lg-6 {
+    text-align: justify;
+    color: grey;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+
+.vid {
+    margin-left:740px;
+    margin-top:-240px;
+    padding-bottom:50px;
+}
+
+#AboutThem {
+    background-color: #737373;
+    box-shadow: 1px 2px 5px grey;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+}
+ul.col-md-6 {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin-left: 40; /* Remove margins */
+}
+/* media queries */
+@media (max-width: 1129px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
