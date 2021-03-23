@@ -1,0 +1,130 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(76, 175, 80, 0.1);
+    background: url(/images/logo.png);
+    background-attachment: fixed;
+    background-size: 300px;
+    background-position:bottom;
+    background-color: #040404; 
+}
+
+#nav_bar {
+    background-color: #ffec68;
+    box-shadow: 1px 2px 5px grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#nav_bar ul li a{
+    color:black;
+}
+
+#intro {
+    background: rgb(38, 38, 38, 0.4);
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    color: black;
+    text-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.navbar navbar-expand-lg .collapse navbar-collapse {
+    color: black;
+    text-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.col-lg-6 {
+    text-align: justify;
+    color: #FFDF00;
+    margin-left: 135px;
+    padding-top: 100px;
+    margin-bottom: 145px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+.vid {
+    margin-left:740px;
+    margin-top: -500px;
+    padding-bottom:100px;
+    margin-bottom: 3px;
+}
+
+#AboutThem {
+    background: rgb(38, 38, 38, 0.4);
+    margin-bottom:3px;
+    color: #FFDF00;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+ul.col-md-6 {
+ 
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin-left: 100px; /* Remove margins */
+}
+
+#AboutThem ul li a{
+    margin-bottom:100px;
+    color: #FFDF00;
+}
+
+#update {
+    background: rgb(38, 38, 38, 0.4);
+    margin-top:3px;
+    padding-top:100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-bottom:100px;
+}
+
+#update h3 {
+    text-align:center;
+    color: #FFDF00;
+}
+
+.testimonial-img{
+    padding-left:180px;
+    padding-right:0px;
+}
+
+.testimonial2-img {
+    padding-left: 180px;
+    padding-right: 0px;
+}
+em {
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 400px;
+}
+
+#update h2 {
+    text-align:center;
+    color: #FFDF00;
+}
+/* media queries */
+@media (max-width: 1129px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
